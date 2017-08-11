@@ -4,9 +4,16 @@
   "main": "index.js",
   "author": "Serey Morm",
   "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "body-parser": "^1.17.1",
+    "connect": "^3.6.1",
     "express": "^4.15.2",
-    "nodemailer": "^4.0.1"
+    "iplocation": "^5.0.0",
+    "nodemailer": "^4.0.1",
+    "request-ip": "^2.0.1",
+    "yelp-fusion": "^1.0.3"
   }
 }
